@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+html{
+    background-color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.quem{
+    display: flex;
+    color: white;
+    font-size: 32px;
+    justify-content: center;
+    margin: 85px;
+}
+
+.contanier{
+    display: flex;
+    justify-content: center;
+}
+
+.contanier .perfil{
+    margin: 15px;
+    
+}
+#adicionar:hover{
+    border: 2px solid white;
+    cursor: pointer;
+ 
+}
+
+.contanier .perfil .img:hover{
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+.contanier .perfil .nome{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caixagerenciar{
+    display: flex;
+    justify-content: center;
+}
+
+.gerenciar{
+  color: white;
+  border: 2px solid white;
+  width: 206px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gerenciar:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
